@@ -8,15 +8,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="mainContainer">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="education.html">Education</a>
-            <a href="hobbies.html">Hobbies</a>
-            <a href="contact.html">Contact</a>
+    <div id ="mainContainer">
+        <nav id ="navBar">
+            <ul id="navList">
+                <li class="navListItem"><a href="index.html">Home</a></li>
+                <li class="navListItem"><a href="education.html">Education</a></li>
+                <li class="navListItem"><a href="hobbies.html">Hobbies</a></li>
+                <li class="navListItem"><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
-        <header id="mainHeader"> ICA04 - CSS Grid Forms</header>
-    HELLO!
+        <header id="mainHeader">Taimoor Arshad</header>
+        <header class="secondHeader">
+            <img id="imageHeader" src="images/edm_skyline.jpg" alt="edmonton skyline">
+        </header>
+        <div id="subContainer">
+            <img id="naitLogo" src="images/nait_logo.jpg" alt="nait logo">
+            <a id="naitText">Computer Engineering Technology Student</a>
+            <p id="aboutTitle">About Myself</p>
+            <p id="aboutSection">
+                A young student living in Edmonton, Alberta with interests in full-stack development
+                and electronics engineering. Looking to work on embedded systems and the interface 
+                between software and hardware.
+            </p>
+        </div>
+        <footer>
+            <script>document.write("Last Modified On: " + document.lastModified);</script>
+        </footer>
     </div>
 </body>
 </html>

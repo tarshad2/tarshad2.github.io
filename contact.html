@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mainContainer">
+        <nav id="navBar">
+            <ul id="navList">
+                <li class="navListItem"><a href="index.html">Home</a></li>
+                <li class="navListItem"><a href="education.html">Education</a></li>
+                <li class="navListItem"><a href="hobbies.html">Hobbies</a></li>
+                <li class="navListItem"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="contactContainer">
+            <h1 id="emailHeader">
+                Send an email:
+            </h1>
+            <form id="contactForm" class="formContainer" action="https://thor.cnt.sast.ca/~demo/cmpe2000/ica04_formtest.php" method="post"
+                target="_blank">
+                <div class="firstName">First name:<br><input type="text" class="container" name="firstName"
+                        placeholder="Your first name" maxlength="32" autofocus><br><br></div>
+                <div class="lastName">Last name:<br><input type="text" class="container" name="lastName"
+                        placeholder="Your last name" maxlength="32"><br><br></div>
+                <div class="email">Email:<br><input type="email" class="container" name="email" placeholder="Your email"
+                        maxlength="32"><br><br></div>
+                <div class="subject">Subject: <br><input type="text" class="container" name="subject"
+                        placeholder="Enter your message here"><br><br></div>
+                <div class="message">Message: <br><textarea type="text" class="container" name="message"
+                        placeholder="Enter your message here"></textarea><br><br></div>
+                <div class="acknowledge">Acknowledge terms: <input type="checkbox" class="container"
+                        name="acknowledge"><br><br></div>
+                <section class="buttons">
+                    <input class="container" id="resetBtn" type="reset" value="Reset Form">
+                    <input class="container" id="submitBtn" type="submit" value="Send Message">
+                </section>
+            </form>
+            <h1 id="socials">
+                Social Media Links
+            </h1>
+            <ul id="socialsList">
+                <li class="socialsListItem"><a href="https://facebook.com" class="fa fa-facebook"></a></li>
+                <li class="socialsListItem"><a href="https://twitter.com" class="fa fa-twitter"></a></li>
+                <li class="socialsListItem"><a href="https://instagram.com" class="fa fa-instagram"></a></li>
+                <li class="socialsListItem"><a href="https://linkedin.com" class="fa fa-linkedin"></a></li>
+            </ul>
+
+        </div>
+        <footer>
+            <script>document.write("Last Modified On: " + document.lastModified);</script>
+        </footer>
+    </div>
+</body>
+
+</html>
